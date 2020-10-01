@@ -8,7 +8,10 @@ function hiEveryone() {
 }
 
 function sayHello(input) {
-   return "Hello, " + input + "!";
+    if (input === true || input === false || input === "" || input === undefined) {
+        return "Hello, World!";
+    }
+    return "Hello, " + input + "!";
 }
 
 
