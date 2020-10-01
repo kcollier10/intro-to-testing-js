@@ -14,16 +14,16 @@ function sayHello(input) {
     return "Hello, " + input + "!";
 }
 
-function isFive() {
-    if (input === 5 || input === "5" || input === true) {
-        return true;
-    } else {
-        return false;
-    }
+function isFive(input) {
+    return (parseFloat(input) == 5);
 }
 
 // function isFive() {
 //     return input === 5 || input === "5" || input === true;
 // }
+
+function isEven(input) {
+    return input % 2 === 0;
+}
 
 
