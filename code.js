@@ -7,6 +7,9 @@ function hiEveryone() {
     return "Hi, everyone!";
 }
 
-function sayHello() {
-    return "Say hello!";
+function sayHello(input) {
+   return "Hello, " + input + "!";
 }
+
+
+
